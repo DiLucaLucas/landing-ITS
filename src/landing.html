@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITS - Landing Page</title>
+    <link rel="shortcut icon" href="../assets/ITS_LOGO.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="landing-styles.css">
+    <!-- Libreria de Iconos - "Font Awesome" -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <!-- <div class="logo">
+                <img src="../assets/ITS_LOGO.jpg" alt="">
+            </div> -->
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#carreras">Carreras</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button class="btn-apply">Incribirse Ahora</button>
+            
+            <img src="../assets/menu.png"  class="menu-icon" id="menu-icon" alt="Menu Hamburguesa">
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Intituto Tecnico Superior</h1>
+            <p>Formando a los profesionales</p>
+            <button class="btn-primary">Learn More</button>
+        </div>
+        <div class="form-section">
+            <h2>¡Estamos aquí para ayudarte!</h2>
+            <form>
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Teléfono">
+                <select>
+                    <option>Seleccionar Carrera</option>
+                    <option>Tec. Superior Desarrollo de Software Full Stack</option>
+                    <option>Tec. Superior Soporte</option>
+                    <option>Tec. Superior Sys Admin</option>
+                </select>
+                <button class="btn-submit" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <section class="careers-section">
+        <h2 class="section-title">Nuestras Carreras</h2>
+        <div class="cards-container">
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-server"></i>
+                    <h3>Tec. Superior Sys Admin</h3>
+                    <p>Escpecializate en la administración de servidores y redes, garantizando el correcto funcionamiento de la infraestructura tecnologica</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-tools"></i>
+                    <h3>Tec. Superior Soporte</h3>
+                    <p>Brinda soporte técnico especializado, ayudando a resolver problemas tecnológicos tanto en software como en hardware.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Tec. Superior Desarrollo Full Stack</h3>
+                    <p>Conviértete en un desarrollador Full Stack, trabajando tanto en el frontend como en el backend de aplicaciones web y móviles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider">
+        <div class="slider-container">
+            <div class="slide">
+                <img src="../assets/slider-images/first-image.jpg" alt="" srcset="">
+            </div>
+            <div class="slide">
+                <img src="../assets/slider-images/second-image.jpg" alt="" srcset="">
+            </div>
+            <div class="slide">
+                <img src="../assets/slider-images/third-image.jpg" alt="" srcset="">
+            </div>
+            <button class="prev-slide"><</button>
+            <button class="next-slide">></button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-column">
+            <h3>DIRECCIÓN</h3>
+            <p>Calles Perú y Río Salado, Cipolletti, Río Negro, Argentina</p>
+        </div>
+        <div class="footer-column">
+            <h3>HORARIO</h3>
+            <p>De Lunes a Viernes <br> De 19 hs a 23 hs</p>
+        </div>
+        <div class="footer-column">
+            <h3>TELÉFONO</h3>
+            <p>(0299) 477-1976</p>
+        </div>
+        <div class="footer-column">
+            <h3>CONTACTO</h3>
+            <p>direccion@itscipolletti.edu.ar</p>
+            <p>secretaria@itscipolletti.edu.ar</p>
+            <p>campus@itscipolletti.edu.ar</p>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
